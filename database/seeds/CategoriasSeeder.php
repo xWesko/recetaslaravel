@@ -9,6 +9,7 @@ class CategoriasSeeder extends Seeder
      * Run the database seeds.
      *
      * @return void
+     * php artisan db:seed
      */
     public function run()
     {
