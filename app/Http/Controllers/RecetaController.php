@@ -87,38 +87,23 @@ class RecetaController extends Controller
 
     public function show(Receta $receta)
     {
-        //
+        return view('recetas.show', compact('receta'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Receta  $receta
-     * @return \Illuminate\Http\Response
-     */
+  
     public function edit(Receta $receta)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Receta  $receta
-     * @return \Illuminate\Http\Response
-     */
+ 
     public function update(Request $request, Receta $receta)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Receta  $receta
-     * @return \Illuminate\Http\Response
-     */
+
+  
     public function destroy(Receta $receta)
     {
         //
